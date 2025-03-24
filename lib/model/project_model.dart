@@ -54,4 +54,9 @@ List<Project> projectList = [
       'Introducing the extraordinary "Doctor Appointment System" - a state-of-the-art Flutter UI application that redefines healthcare accessibility and efficiency. Seamlessly crafted, this app empowers users to effortlessly select doctors based on categories, engage in smooth messaging, and access detailed profiles.',
       'assets/images/doctor.png',
       'https://github.com/villanharry/Doctor-Appointment-Application-UI'),
+  Project(
+      'Social Media Application',
+      'Flutter-based Mobile Application, which has two interfaces of business & user, with social media features showcasing feed posting, bookmarking businesses, reporting of other businesses & stats of business reach. The app is designed with a strong focus on responsiveness, ensuring that it looks and works flawlessly across a range of mobile devices.',
+      'assets/images/social.png',
+      'https://github.com/villanharry/Doctor-Appointment-Application-UI'),
 ];
