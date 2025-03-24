@@ -19,6 +19,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
           return Column(
             children: [
               Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset(
                     image!,
@@ -33,18 +34,18 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                     title,
                     style: const TextStyle(color: Colors.white),
                   ),
-                  const Spacer(),
-                  Text('${(value * 100).toInt().toString()}%'),
+                  // const Spacer(),
+                  // Text('${(value * 100).toInt().toString()}%'),
                 ],
               ),
-              const SizedBox(
-                height: defaultPadding / 2,
-              ),
-              LinearProgressIndicator(
-                value: value,
-                backgroundColor: Colors.black,
-                color: Colors.cyan,
-              ),
+              // const SizedBox(
+              //   height: defaultPadding / 2,
+              // ),
+              // LinearProgressIndicator(
+              //   value: value,
+              //   backgroundColor: Colors.black,
+              //   color: Colors.cyan,
+              // ),
             ],
           );
         },
@@ -58,8 +59,9 @@ class MySKills extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+    return const Wrap(
+      spacing: 20,
+      // crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         AnimatedLinearProgressIndicator(
           percentage: 0.96,

@@ -12,7 +12,7 @@ class SocialMediaIconColumn extends StatelessWidget {
         SocialMediaIcon(
             icon: 'assets/icons/linkedin.svg',
             onTap: () => launchUrl(Uri.parse(
-                'https://www.linkedin.com/in/muhammad-haris-shoaib-25657b181'))),
+                'https://www.linkedin.com/in/muhammad-haris-shoaib-25657b181/'))),
         SocialMediaIcon(
           icon: 'assets/icons/github.svg',
           onTap: () => launchUrl(Uri.parse('https://github.com/villanharry')),
