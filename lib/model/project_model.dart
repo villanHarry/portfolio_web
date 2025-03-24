@@ -22,7 +22,7 @@ List<Project> projectList = [
   Project(
       'Neumorphic Clockify',
       'Neumorphic TimeKit is an open-source project that brings together the elegance of a beautifully designed alarm system, an analog clock with a neumorphic touch, and a feature-rich stopwatch. Whether you\'re looking for a functional alarm tool, a stylish desktop clock, or a precise stopwatch, TimeKit has you covered.',
-      'assets/images/alarm.jpg',
+      'assets/images/alarms.jpg',
       'https://github.com/villanharry/Neumorphic-Analog-Clockify'),
   Project(
       'CUI Aider',
@@ -32,7 +32,7 @@ List<Project> projectList = [
   Project(
       'Flutter Music Streaming Application',
       'A Flutter music streaming application that allows users to play audio files from local storage. The app features a beautiful neumorphic UI design and provides a smooth user experience for browsing and playing music.',
-      'assets/images/player.png',
+      'assets/images/players.png',
       'https://github.com/villanharry/Neumorphic-Music_Player-Flutter'),
   Project(
       'Food Recipe App',
@@ -42,7 +42,7 @@ List<Project> projectList = [
   Project(
       'Task Sync Pro',
       'Welcome to the Beautiful Task Scheduler App repository! This Flutter-based task management application combines elegant design with a robust backend, ensuring a seamless and organized task management experience. From stunning UI to real-time synchronization, this app has you covered.',
-      'assets/images/task.png',
+      'assets/images/tasks.png',
       'https://github.com/villanharry/Task-Sync-Pro-Flutter'),
   Project(
       'Flutter Chat Application with Firebase',
